@@ -8,9 +8,9 @@ Library for interfacing an Analog Devices AD7606 to a Raspberry Pi.
 
 ## Installation
 
-Log into Raspberry Pi
+1. Log into Raspberry Pi
 
-Clone from source and run
+2. Clone from source and run the setup script
 
     git clone https://github.com/bsumlin/rpi_ad7606.git
 	
@@ -18,5 +18,8 @@ Clone from source and run
 
 	sudo python setup.py install
 
-At this point "rpi-ad7606" should be listed when "pip freeze" is executed.
+3. At this point "rpi-ad7606" should be listed when "pip freeze" is executed.
 
+## Test Script
+
+You can find a simple test script ["simple_spi_adc_read.py"](Test and support files/simple_spi_adc_read.py) in "Test and support files"
